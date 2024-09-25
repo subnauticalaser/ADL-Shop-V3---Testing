@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+
+.topbar {
+    background-color: rgba(46, 45, 45, 0.7);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 15%;
+    width: 100%;
+}
+
+.cardsBody {
+    background-color: transparent;
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+}
+
+
+.container .cardsBody .shopCardItem {
+    background-color: rgb(47, 48, 48, 0.9);
+    height: 500px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.container .cardsBody .shopCardItem h1 {
+    background-color: transparent;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.container .cardsBody .shopCardItem img {
+    height: auto;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: -20%;
+    border-radius: 16px;
+}
+
+.container .cardsBody .shopCardItem .PrizeCount {
+    position: relative;
+    top: -17.8%;
+    left: 2.5%;
+    width: 30%;
+    color: white;
+    background-color: black;
+    border-radius: 16px;
+    font-size: 25px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.container .cardsBody .shopCardItem .learnMoreButton {
+    position: relative;
+    top: -28.7%;
+    left: 54.8%;
+    height: 32px;
+    width: 120px;
+    border-radius: 16px;
+    background-color: rgb(17, 250, 9);
+    color: rgba(255, 254, 254, 0.9);
+    font-size: 16px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+
+.LearnMoreInfoBox {
+    background-color: rgba(134, 132, 132, 0.5);
+    position: fixed;
+    width: 50%;
+    height: 70%;
+    left: 20%;
+    top: 20%;
+    z-index: 1000;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+
+.LearnMoreInfoBox .closeButton {
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: auto;
+    color: white;
+    border-radius: 16px;
+    left: 92.5%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.LearnMoreInfoBox .textBody {
+    background-color: rgba(46, 45, 45, 0.3);
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 24px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+
+.topbar .Icon img {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: 1%;
+    border-radius: 16px;
+}
